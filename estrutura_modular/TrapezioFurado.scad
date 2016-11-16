@@ -19,7 +19,7 @@ module TrapezioFurado(profundidade,largura,altura) {
 
         cylinder (altura+0.1, r=1, center = true, $fn=10);
         translate([0,0,altura-2])
-        cylinder (altura, r=2, center = true, $fn=10);
+        cylinder (altura, r=2.5, center = true, $fn=10);
     }
 }
 

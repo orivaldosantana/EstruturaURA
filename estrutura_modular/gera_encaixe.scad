@@ -1,6 +1,6 @@
 use <EncaixeU.scad>
 
-tamanho = 34;
+tamanho = 24;
 
 // Cria um encaixe universal com tamanho 
 //determinado pela variável 'tamanho'
