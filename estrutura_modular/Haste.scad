@@ -37,9 +37,9 @@ difference() {
 // Extremidades da haste 
 for (a = [0:180:181]) {
     rotate([0,0,a])
-    translate([0,comprimento/2+larguraTrapezio/2 ,0])
+    translate([0,comprimento/2+profundidadeTrapezio/2 ,0])
     TrapezioFurado(profundidadeTrapezio,larguraTrapezio,altura);  
 }
 }
 
-//Haste(5,4,30,false); 
+//Haste(5.6,4,30,false); 
