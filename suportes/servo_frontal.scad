@@ -17,10 +17,10 @@ difference(){
     }
 
     {
-    translate([largura_interna/2+2.5,-12/2,-altura/2-1])
+    translate([largura_interna/2+2.5,-12/2+parede_frontal,-altura/2-1])
     cylinder(altura+2,1,true);
         
-    translate([-(largura_interna/2+2.5),-12/2,-altura/2-1])
+    translate([-(largura_interna/2+2.5),-12/2+parede_frontal,-altura/2-1])
     cylinder(altura+2,1,true);
         
     translate([-(largura_interna/2+parede_lateral/2),prof_interna/2 - parede_lateral/2,-altura/2-1])
